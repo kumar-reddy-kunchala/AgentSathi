@@ -1,0 +1,6 @@
+{
+  "name": "ServiceAgent",
+  "description": "An Agentic AI Service Coordination Platform for Independent Living with Sathi AI orchestration and deterministic dispatch engine.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

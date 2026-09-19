@@ -1,0 +1,43 @@
+# ServiceAgent Project Requirements & Dependencies
+# Node.js Version: >=18.0.0
+
+# Core Dependencies
+react>=19.0.1
+react-dom>=19.0.1
+express>=4.21.2
+vite>=8.3.0
+@google/genai>=2.4.0
+lucide-react>=0.546.0
+motion>=12.23.24
+dotenv>=17.2.3
+
+# Dev Dependencies
+typescript>=7.0.2
+tsx>=4.21.0
+esbuild>=0.25.0
+tailwindcss>=4.3.3
+@tailwindcss/vite>=4.3.3
+autoprefixer>=10.4.21
+@types/node>=22.14.0
+@types/react>=19.3.0
+@types/react-dom>=19.3.0
+@types/express>=4.17.21
+
+# System Environment Variables Required
+GEMINI_API_KEY=
+PORT=3000
+NODE_ENV=production
+APP_URL=
+GOOGLE_MAPS_API_KEY=
+FIREBASE_PROJECT_ID=
+PAYMENT_PROVIDER_KEY=
+PAYMENT_PROVIDER_SECRET=
+EMAIL_PROVIDER_KEY=
+SMS_PROVIDER_KEY=
+WHATSAPP_PROVIDER_KEY=
+
+# Build & Run Commands
+# Install: npm install
+# Dev: npm run dev
+# Build: npm run build
+# Start: npm start
